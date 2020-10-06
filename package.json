@@ -4,7 +4,9 @@
     "description": "Node App on Docker",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js",
+        "runContainer": "npm run runContainer",
+        "stopContainer": "npm run stopContainer"
     },
     "dependencies": {
         "express": "^4.16.1"
